@@ -1,0 +1,90 @@
+/* 
+    Created on : 30/10/2020, 15:15:01
+    Author     : Carlos Rasteiro
+*/
+
+.container-services{
+    width: 90%;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+.container-services p{
+    text-align: center;
+    font-size: 1.4em;
+    font-family: oregano;
+}
+
+.back .fas{
+    font-size: 18px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.accordion{
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 14px 20px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 13px;
+    transition: 0.4s;
+    font-family: oregano;
+    font-size: 1.7em;
+    margin: 10px;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel{
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    
+    margin-left: 100px;
+    font-family: fresca;
+    font-size: 1.3em;
+    
+}
+
+.panel p{
+    padding-bottom: 15px;
+    text-align: justify;
+    font-family: fresca;
+    font-size: 1em;
+    
+}
+
+.negrito{
+    font-weight: bold;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    font-family: fresca;
+}
+
+.h2{}
+
+.iten-list{}
+
+.scripts{}

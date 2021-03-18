@@ -1,0 +1,26 @@
+/* 
+    Created on : 16/03/2021, 15:32:34
+    Author     : Carlos Rasteiro
+*/
+
+.content{
+    max-width: 70%;
+    margin: 0 auto;
+    font-family: fresca;
+}
+
+.news{
+    background-color: #ccc;
+    margin: 15px;
+    border-radius: 15px;
+    padding: 15px 25px;
+}
+
+.description{
+    font-size: 19px;
+}
+
+.location{
+    font-size: 17px;
+    padding-left: 50px;
+}

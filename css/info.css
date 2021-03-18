@@ -1,0 +1,24 @@
+/* 
+    Created on : 16/03/2021, 10:57:16
+    Author     : Carlos Rasteiro
+    Version    : 1.0
+    
+*/
+
+h2 {text-align: center;}
+
+h3 {
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.container {
+    background-color: #ccc;
+    min-height: 100vh;
+}
+
+.content {
+    margin: 0 auto;
+    padding: 50px 0;
+    width: 70%;
+}
